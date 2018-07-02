@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BarChart_Example' do
+  pod 'BarChart', :path => '../'
+
+  target 'BarChart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
