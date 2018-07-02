@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'This CocoaPod provides a simple interface to create multiple bar charts through UICollectionView.'
 
-  s.homepage         = 'https://github.com/yasirfolio3/BarChart'
+  s.homepage         = 'https://github.com/yasiralishoro/BarChart'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yasiralishoro' => 'yasiralishoro@yahoo.com' }
-  s.source           = { :git => 'https://github.com/yasirfolio3/BarChart.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yasiralishoro/BarChart.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
