@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BarChart'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BarChart.'
+  s.summary          = 'Pod to create bar charts.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This CocoaPod provides a simple interface to create multiple bar charts through UICollectionView.'
 
   s.homepage         = 'https://github.com/yasirfolio3/BarChart'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yasirfolio3' => 'yasiralishoro@yahoo.com' }
+  s.author           = { 'yasiralishoro' => 'yasiralishoro@yahoo.com' }
   s.source           = { :git => 'https://github.com/yasirfolio3/BarChart.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
